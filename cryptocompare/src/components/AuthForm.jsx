@@ -72,7 +72,8 @@ function AuthForm({ onSwitch, isLogin, onLoginSuccess, resetFields }) {
         if (isLogin) {
           onLoginSuccess(); // Call the function to handle successful login
         } else {
-          console.log(data.message); // User created successfully
+          alert('Signup successful! You can now log in.'); // Alert for successful signup
+          onSwitch(); // Switch to the login form
         }
       } else {
         setError(data.error); // Set error message if signup/login fails

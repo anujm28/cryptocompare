@@ -1,0 +1,43 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #1a1a1a; /* Change to your preferred color */
+    color: white;
+    width: 100%; /* Make the navbar full width */
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+ /* src/components/Navbar.css */
+.logout-button {
+    border-radius: 8px; /* Added border radius */
+    border: 1px solid transparent; /* Added border */
+    padding: 0.6em 1.2em; /* Added padding */
+    font-size: 1em; /* Set font size */
+    font-weight: 500; /* Set font weight */
+    font-family: inherit; /* Inherit font family */
+    background-color: #1a1a1a; /* Background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    margin-right: 40px; /* Right margin */
+    transition: border-color 0.25s; /* Transition for border color */
+  }
+  
+  .logout-button:hover {
+    border-color: #646cff; /* Border color on hover */
+  }
+  
+  .logout-button:focus,
+  .logout-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color; /* Focus outline */
+  }

@@ -13,6 +13,7 @@ body {
     align-items: center; /* Center items horizontally */
     justify-content: flex-start; /* Align items to the top */
     padding: 20px; /* Padding around the container */
+    margin-top: 50px; /* Add margin to push content down */
 }
 
 .welcome-heading {

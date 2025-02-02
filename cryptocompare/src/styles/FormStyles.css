@@ -17,7 +17,7 @@
   }
   
   .form-container input {
-    width: 100%;
+    width: 90%; /* Full width for input fields */
     padding: 12px; /* Increased padding for better touch targets */
     margin: 10px 0;
     border: 1px solid #ccc; /* Light border */
@@ -26,7 +26,7 @@
   }
   
   .form-container button {
-    width: 100%;
+    width: 96%; /* Full width for buttons */
     padding: 12px;
     background-color: #007bff; /* Primary color */
     color: white;
@@ -42,6 +42,7 @@
   }
   
   .switch-button {
+    width: 100%; /* Ensure switch button is also full width */
     margin-top: 15px;
     background: none;
     border: none;
